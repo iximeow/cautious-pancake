@@ -1,0 +1,10 @@
+[package]
+name = "codegentest"
+version = "0.1.0"
+authors = ["iximeow <me@iximeow.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cranelift-codegen = { path = "/home/iximeow/wasmtime/cranelift/codegen", default-features = false, features = ["std", "arm32"] }
